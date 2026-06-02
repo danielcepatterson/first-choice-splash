@@ -107,10 +107,9 @@ function App() {
 					<h2 className="section-title">Why Choose Us</h2>
 					<div className="about-content">
 						<div className="about-text">
-							<h3>20+ Years of Experience</h3>
-							<p>
-								We've been serving homeowners with reliable, professional service for
-								over two decades.
+						<h3>10+ Years of Experience</h3>
+						<p>
+							With a decade of experience, we take pride in serving homeowners with reliable, professional service.
 							</p>
 							<ul className="benefits-list">
 								<li>✓ Licensed and Insured</li>
