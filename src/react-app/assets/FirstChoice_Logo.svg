@@ -1,0 +1,34 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield background -->
+  <path d="M100 20 L160 50 L160 100 Q100 160 100 160 Q100 160 40 100 L40 50 Z" stroke="black" stroke-width="4" fill="none"/>
+  
+  <!-- House -->
+  <path d="M70 90 L100 70 L130 90" stroke="black" stroke-width="2.5" fill="none"/>
+  <rect x="75" y="90" width="50" height="40" stroke="black" stroke-width="2.5" fill="none"/>
+  
+  <!-- Door -->
+  <rect x="92" y="100" width="16" height="30" stroke="black" stroke-width="2" fill="none"/>
+  <circle cx="106" cy="115" r="1.5" fill="black"/>
+  
+  <!-- Window -->
+  <rect x="78" y="95" width="8" height="8" stroke="black" stroke-width="1.5" fill="none"/>
+  
+  <!-- Wrench (left) -->
+  <g transform="translate(50, 110)">
+    <line x1="0" y1="0" x2="15" y2="15" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="2" cy="2" r="3" stroke="black" stroke-width="2" fill="none"/>
+    <path d="M 12 13 Q 18 7 22 11" stroke="black" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Hammer (right) -->
+  <g transform="translate(130, 105)">
+    <rect x="0" y="0" width="6" height="14" stroke="black" stroke-width="2" fill="none"/>
+    <rect x="-8" y="-6" width="22" height="12" stroke="black" stroke-width="2.5" fill="none" rx="2"/>
+    <line x1="3" y1="14" x2="8" y2="20" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Toolbox -->
+  <rect x="95" y="78" width="14" height="10" stroke="black" stroke-width="2" fill="none" rx="1"/>
+  <line x1="102" y1="78" x2="102" y2="88" stroke="black" stroke-width="1.5"/>
+  <path d="M 100 78 Q 102 75 104 78" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

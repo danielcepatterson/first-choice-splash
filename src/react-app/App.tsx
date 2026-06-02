@@ -1,6 +1,7 @@
 // src/App.tsx
 
 import { useState } from "react";
+import logo from "./assets/FirstChoice_Logo.svg";
 import "./App.css";
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
 			<nav className="navbar">
 				<div className="container">
 					<div className="logo-section">
-						<h2 className="logo-text">🔧 First Choice Repair</h2>
+					<img src={logo} alt="First Choice Logo" className="navbar-logo" />
+					<h2 className="logo-text">First Choice Repair</h2>
 					</div>
 					<div className="nav-links">
 						<a href="#services">Services</a>
