@@ -11,9 +11,26 @@ function App() {
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 		if (email) {
-			setSubmitted(true);
-			setEmail("");
-			setTimeout(() => setSubmitted(false), 3000);
+			// Send email to the backend API
+			fetch("/api/quote", {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+				},
+				body: JSON.stringify({ email }),
+			})
+				.then((res) => res.json())
+				.then(() => {
+					setSubmitted(true);
+					setEmail("");
+					setTimeout(() => setSubmitted(false), 3000);
+				})
+				.catch((error) => {
+					console.error("Error submitting quote request:", error);
+					setSubmitted(true);
+					setEmail("");
+					setTimeout(() => setSubmitted(false), 3000);
+				});
 		}
 	};
 
@@ -112,8 +129,9 @@ function App() {
 						<h3>10+ Years of Experience</h3>
 						<p>
 							With a decade of experience, we take pride in serving homeowners with reliable, professional service.
-							</p>
-							<ul className="benefits-list">
+							</p>						<p className="service-area">
+							Servicing Wilmington, Carolina Beach, Leland, and the surrounding Area
+						</p>							<ul className="benefits-list">
 								<li>✓ Licensed and Insured</li>
 								<li>✓ Same-Day Service Available</li>
 								<li>✓ Transparent Pricing</li>
@@ -149,7 +167,7 @@ function App() {
 						</p>
 					)}
 					<div className="contact-info">
-						<p>📞 (555) 123-4567 | 📧 firstchoicegmhr@gmail.com</p>
+						<p>📞 (910) 319-1402 | 📧 firstchoicegmhr@gmail.com</p>
 					</div>
 				</div>
 			</section>
