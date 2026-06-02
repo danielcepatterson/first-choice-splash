@@ -75,10 +75,11 @@ function App() {
 							</p>
 						</div>
 						<div className="service-card">
-							<div className="service-icon">❄️</div>
-							<h3>HVAC</h3>
+							<div className="service-icon">🌿</div>
+							<h3>Landscaping & Outdoor Spaces</h3>
 							<p>
-								Heating, cooling, and ventilation system maintenance and repair.
+								Lawn maintenance, garden design, patio installation, and outdoor
+								beautification.
 							</p>
 						</div>
 						<div className="service-card">
@@ -116,7 +117,6 @@ function App() {
 								<li>✓ Same-Day Service Available</li>
 								<li>✓ Transparent Pricing</li>
 								<li>✓ 100% Satisfaction Guarantee</li>
-								<li>✓ Emergency Services 24/7</li>
 							</ul>
 						</div>
 						<div className="about-image">
