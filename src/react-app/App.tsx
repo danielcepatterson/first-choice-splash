@@ -147,7 +147,7 @@ function App() {
 						</p>
 					)}
 					<div className="contact-info">
-						<p>📞 (555) 123-4567 | 📧 info@firstchoicerepair.com</p>
+						<p>📞 (555) 123-4567 | 📧 firstchoicegmhr@gmail.com</p>
 					</div>
 				</div>
 			</section>
@@ -155,7 +155,7 @@ function App() {
 			{/* Footer */}
 			<footer className="footer">
 				<div className="container">
-					<p>&copy; 2024 First Choice Repair. All rights reserved.</p>
+					<p>&copy; 2026 First Choice Repair. All rights reserved.</p>
 				</div>
 			</footer>
 		</>
